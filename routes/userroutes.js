@@ -3,7 +3,7 @@ const express = require('express')
 const router = express.Router()
 const logger=require('../logger')('userroute')
 const { validateRequest } = require('../middleware/validaterequest')
-const { validateAddUserSchema, validateCompanyUserSchema } = require('../schema/validateuserschema')
+const { validateAddUserSchema, validateCompanyUserSchema } = require('./validateuserschema')
 
 //Adding user route (name, email, phone) to the database
 router.post('/',validateAddUserSchema, validateRequest, async (req, res)=>{
@@ -44,25 +44,5 @@ router.get('/', async (req, res)=>{
         logger.error(`listUser returned an error: ${err}`)
     }
 })
-
-// //Middleware
-// function validateAddUser(req, res, next){
-//     if(!(req.body.name.trim()))
-//         res.send("Name is missing")
-//     else if(!(req.body.email.trim()))
-//         res.send("Email is missing")
-//     else if(!(req.body.phone.trim()))
-//         res.send("Phone is missing")
-//     else next()
-// }
-
-// //Middleware
-// function validateUser(req, res, next){
-//     if(!(req.body.username.trim()))
-//         res.send("Username is missing")
-//     else if(!(req.body.companyname.trim()))
-//         res.send("Company name is missing")
-//     else next()    
-// }
 
 module.exports=router
