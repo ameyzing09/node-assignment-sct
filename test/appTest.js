@@ -23,15 +23,6 @@ describe("Getting user from company", ()=>{
                 res.type.should.equal('application/json')
                 res.body.should.include.keys('data')
     })
-
-    // it("GET /company/ : Should return JSON response with 400 status code", async ()=>{
-    //     let res = await chai
-    //         .request('http://localhost:3000')
-    //         .get('/company')
-    //         .send({ "companyname" : "Spring CT"})
-    //         res.should.have.status(400)    
-    //     })
-        
 })
 
 //Testing POST route for add a company
