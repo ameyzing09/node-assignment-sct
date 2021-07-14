@@ -3,7 +3,7 @@ require('dotenv').config()
 const app=express()
 
 const companyRoutes=require('./routes/companyroutes')
-const userRoutes=require('./routes/userroutes')
+const userRoutes=require('./schema/userroutes')
 const dbc=require('./config/databaseConnection.js')
 const logger = require("./logger")('app')
 
