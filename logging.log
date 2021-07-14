@@ -1,0 +1,577 @@
+2021-07-05T11:51:29.550Z info : [app]  Listening on port 3000
+2021-07-05T11:51:29.652Z info : [app]  Connection successful
+2021-07-05T11:53:37.294Z error : [companyservices]  addCompany returned error: TypeError: Cannot read property 'name' of undefined
+2021-07-05T11:53:37.298Z info : [companyroutes]  addCompany returned: TypeError: Cannot read property 'name' of undefined
+2021-07-05T11:55:42.845Z error : [companyservices]  addCompany returned error: TypeError: Cannot read property 'name' of undefined
+2021-07-05T11:55:42.847Z info : [companyroutes]  addCompany returned: TypeError: Cannot read property 'name' of undefined
+2021-07-05T11:58:37.628Z info : [app]  Listening on port 3000
+2021-07-05T11:58:37.697Z info : [app]  Connection successful
+2021-07-05T11:59:19.934Z info : [companyservices]  Company added successfully
+2021-07-05T11:59:19.942Z info : [companyroutes]  addCompany returned: BYJU's added successfully
+2021-07-05T11:59:57.946Z info : [companyservices]  Deletion successful
+2021-07-05T11:59:57.948Z info : [companyroutes]  deleteCompany returned BYJU's deleted successfully
+2021-07-05T12:01:38.863Z info : [userservices]  User created successfully
+2021-07-05T12:01:38.865Z info : [userroute]  addUser returned: User Amey Kodi created successfully
+2021-07-05T12:03:26.613Z info : [userservices]  Allocation successful
+2021-07-05T12:03:26.614Z info : [userroute]  allocateUser returned: User Amey Kodi allocated to TCS company
+2021-07-05T12:04:11.528Z info : [userservices]  User info retrieved
+2021-07-05T12:04:11.530Z info : [userroute]  getUser returned: User Amey Kodi is in TCS company and 
+[{"user_id":9,"user_name":"Amey Kodi","user_email":"ameykodi@mail.com","user_phone":7972985641}]
+2021-07-05T12:04:42.433Z info : [userservices]  User info retrieved
+2021-07-05T12:04:42.435Z info : [userroute]  getUser returned: User Amey Kode is in Spring CT company and 
+[{"user_id":4,"user_name":"Amey Kode","user_email":"ameykode2001@gmail.com","user_phone":9420495830}]
+2021-07-05T12:05:01.301Z info : [userservices]  User list retrieved
+2021-07-05T12:05:01.303Z info : [userroute]  listUser returned: [{"user_id":4,"user_name":"Amey Kode","user_email":"ameykode2001@gmail.com","user_phone":9420495830,"companies":"Spring CT"},{"user_id":9,"user_name":"Amey Kodi","user_email":"ameykodi@mail.com","user_phone":7972985641,"companies":"TCS"},{"user_id":5,"user_name":"Madhura Kode","user_email":"madhurakode2006@gmail.com","user_phone":7972909491,"companies":"Netflix, Oracle, Spring CT, Google"},{"user_id":3,"user_name":"Sakshi Patil","user_email":"sakshivivekpatil2000.sp@gmail.com","user_phone":7219717686,"companies":"Oracle, TCS, Infosys"}]
+2021-07-06T06:29:38.983Z info : [app]  Listening on port 3000
+2021-07-06T06:29:39.172Z info : [app]  Connection successful
+2021-07-06T06:29:58.098Z info : [userservices]  User list retrieved
+2021-07-06T06:29:58.101Z info : [userroute]  listUser returned: [{"user_id":4,"user_name":"Amey Kode","user_email":"ameykode2001@gmail.com","user_phone":9420495830,"companies":"Spring CT"},{"user_id":9,"user_name":"Amey Kodi","user_email":"ameykodi@mail.com","user_phone":7972985641,"companies":"TCS"},{"user_id":5,"user_name":"Madhura Kode","user_email":"madhurakode2006@gmail.com","user_phone":7972909491,"companies":"Netflix, Oracle, Spring CT, Google"},{"user_id":3,"user_name":"Sakshi Patil","user_email":"sakshivivekpatil2000.sp@gmail.com","user_phone":7219717686,"companies":"Oracle, TCS, Infosys"}]
+2021-07-06T06:35:03.322Z info : [userservices]  User list retrieved
+2021-07-06T06:35:03.324Z info : [userroute]  listUser returned: [{"user_id":4,"user_name":"Amey Kode","user_email":"ameykode2001@gmail.com","user_phone":9420495830,"companies":"Spring CT"},{"user_id":9,"user_name":"Amey Kodi","user_email":"ameykodi@mail.com","user_phone":7972985641,"companies":"TCS"},{"user_id":5,"user_name":"Madhura Kode","user_email":"madhurakode2006@gmail.com","user_phone":7972909491,"companies":"Google, Netflix, Oracle, Spring CT"},{"user_id":3,"user_name":"Sakshi Patil","user_email":"sakshivivekpatil2000.sp@gmail.com","user_phone":7219717686,"companies":"Oracle, TCS, Infosys"}]
+2021-07-06T06:35:56.958Z info : [userservices]  User info retrieved
+2021-07-06T06:35:56.959Z info : [userroute]  getUser returned: User Amey Kode is in Spring CT company and 
+[{"user_id":4,"user_name":"Amey Kode","user_email":"ameykode2001@gmail.com","user_phone":9420495830}]
+2021-07-06T06:36:05.602Z error : [userservices]  User not present in the company
+2021-07-06T06:36:05.603Z info : [userroute]  getUser returned: User not in that company
+2021-07-06T11:22:46.410Z info : [app]  Listening on port 3000
+2021-07-06T11:22:46.499Z info : [app]  Connection successful
+2021-07-06T11:23:36.807Z info : [companyservices]  Company added successfully
+2021-07-06T11:23:36.816Z info : [companyroutes]  addCompany returned: Samsung added successfully
+2021-07-06T11:38:42.101Z info : [app]  Listening on port 3000
+2021-07-06T11:38:42.190Z info : [app]  Connection successful
+2021-07-06T11:40:19.732Z info : [userservices]  User created successfully
+2021-07-06T11:40:19.739Z info : [userroute]  addUser returned: User Sectya Kode created successfully
+2021-07-06T11:40:53.345Z info : [app]  Listening on port 3000
+2021-07-06T11:40:53.416Z info : [app]  Connection successful
+2021-07-06T11:41:10.160Z info : [userservices]  User created successfully
+2021-07-06T11:41:10.168Z info : [userroute]  addUser returned: User Sakshi Kode created successfully
+2021-07-06T11:42:21.996Z info : [app]  Listening on port 3000
+2021-07-06T11:42:22.077Z info : [app]  Connection successful
+2021-07-06T11:43:03.607Z info : [userservices]  User created successfully
+2021-07-06T11:43:03.612Z info : [userroute]  addUser returned: User Balkrishna Akadkar created successfully
+2021-07-06T18:00:52.827Z info : [app]  Listening on port 3000
+2021-07-06T18:00:52.942Z info : [app]  Connection successful
+2021-07-06T18:01:21.307Z info : [userservices]  User created successfully
+2021-07-06T18:01:21.404Z error : [userroute]  addUser returned an error: TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function sendResponseOnSuccess
+2021-07-06T18:04:35.339Z info : [app]  Listening on port 3000
+2021-07-06T18:04:35.407Z info : [app]  Connection successful
+2021-07-06T18:05:00.293Z info : [userservices]  User created successfully
+2021-07-06T18:05:00.294Z info : [userroute]  addUser returned: sendResponseOnSuccess(){
+        
+        const response = {
+            "data": {
+                "id": this.req.body.user_id
+            },
+            "error": null
+        }
+        return response
+    }
+2021-07-06T18:05:51.854Z info : [app]  Listening on port 3000
+2021-07-06T18:05:51.922Z info : [app]  Connection successful
+2021-07-06T18:06:13.460Z info : [userservices]  User created successfully
+2021-07-06T18:06:13.461Z info : [userroute]  addUser returned: [object Object]
+2021-07-06T18:06:45.466Z info : [app]  Listening on port 3000
+2021-07-06T18:06:45.533Z info : [app]  Connection successful
+2021-07-06T18:07:05.196Z info : [userservices]  User created successfully
+2021-07-06T18:07:05.201Z info : [userroute]  addUser returned: [object Object]
+2021-07-06T18:08:26.985Z info : [app]  Listening on port 3000
+2021-07-06T18:08:27.053Z info : [app]  Connection successful
+2021-07-06T18:08:46.865Z info : [userservices]  User created successfully
+2021-07-06T18:08:46.868Z error : [userservices]  In addUser function: findOrCreate returned an error: ReferenceError: req is not defined
+2021-07-06T18:08:46.869Z info : [userroute]  undefined &&&& [object Object]
+2021-07-06T18:08:46.872Z info : [userroute]  addUser returned: undefined
+2021-07-06T18:58:43.386Z info : [app]  Listening on port 3000
+2021-07-06T18:58:43.452Z info : [app]  Connection successful
+2021-07-06T18:59:18.464Z info : [userservices]  User created successfully
+2021-07-06T18:59:18.465Z error : [userservices]  In addUser function: findOrCreate returned an error: ReferenceError: req is not defined
+2021-07-06T18:59:18.467Z info : [userroute]  addUser returned: undefined
+2021-07-06T18:59:46.777Z info : [app]  Listening on port 3000
+2021-07-06T18:59:46.845Z info : [app]  Connection successful
+2021-07-06T19:00:17.329Z info : [userservices]  User created successfully
+2021-07-06T19:00:17.331Z error : [userservices]  In addUser function: findOrCreate returned an error: ReferenceError: res is not defined
+2021-07-06T19:00:17.337Z info : [userroute]  addUser returned: undefined
+2021-07-06T19:02:34.838Z info : [app]  Listening on port 3000
+2021-07-06T19:02:34.914Z info : [app]  Connection successful
+2021-07-06T19:02:59.916Z info : [userservices]  User created successfully
+2021-07-06T19:02:59.923Z info : [userroute]  addUser returned: [object Object]
+2021-07-06T19:04:14.554Z info : [app]  Listening on port 3000
+2021-07-06T19:04:14.620Z info : [app]  Connection successful
+2021-07-06T19:04:36.506Z info : [userservices]  User created successfully
+2021-07-06T19:04:36.513Z info : [userroute]  addUser returned: [object Object]
+2021-07-06T19:05:19.295Z info : [app]  Listening on port 3000
+2021-07-06T19:05:19.362Z info : [app]  Connection successful
+2021-07-06T19:05:45.098Z info : [userservices]  User created successfully
+2021-07-06T19:05:45.102Z info : [userroute]  addUser returned: [object Object]
+2021-07-07T05:36:24.418Z info : [app]  Listening on port 3000
+2021-07-07T05:36:24.514Z info : [app]  Connection successful
+2021-07-07T05:37:51.522Z info : [userservices]  User created successfully
+2021-07-07T05:37:51.526Z info : [userroute]  addUser returned: [object Object]
+2021-07-07T05:38:03.081Z error : [userservices]  User already exists
+2021-07-07T05:38:03.083Z info : [userroute]  addUser returned: [object Object]
+2021-07-07T08:26:01.994Z info : [app]  Listening on port 3000
+2021-07-07T08:26:02.087Z info : [app]  Connection successful
+2021-07-07T08:30:04.683Z info : [userservices]  User created successfully
+2021-07-07T08:30:04.684Z error : [userservices]  In addUser function: findOrCreate returned an error: TypeError: Cannot read property 'ucno' of undefined
+2021-07-07T08:30:04.688Z info : [userroute]  addUser returned: undefined
+2021-07-07T08:32:37.653Z info : [app]  Listening on port 3000
+2021-07-07T08:32:37.724Z info : [app]  Connection successful
+2021-07-07T08:33:30.925Z info : [userservices]  User created successfully
+2021-07-07T08:33:30.931Z info : [userroute]  addUser returned: [object Object]
+2021-07-07T08:34:47.766Z info : [app]  Listening on port 3000
+2021-07-07T08:34:47.834Z info : [app]  Connection successful
+2021-07-07T08:35:04.937Z info : [userservices]  User created successfully
+2021-07-07T08:35:04.942Z info : [userroute]  addUser returned: [object Object]
+2021-07-07T08:35:50.667Z info : [app]  Listening on port 3000
+2021-07-07T08:35:50.730Z info : [app]  Connection successful
+2021-07-07T08:36:07.707Z info : [userservices]  User created successfully
+2021-07-07T08:36:07.715Z info : [userroute]  addUser returned: [object Object]
+2021-07-07T08:36:17.513Z error : [userservices]  User already exists
+2021-07-07T08:36:17.515Z info : [userroute]  addUser returned: [object Object]
+2021-07-07T08:38:07.406Z info : [app]  Listening on port 3000
+2021-07-07T08:38:07.471Z info : [app]  Connection successful
+2021-07-07T08:39:20.461Z info : [app]  Listening on port 3000
+2021-07-07T08:39:20.526Z info : [app]  Connection successful
+2021-07-07T08:40:11.340Z info : [app]  Listening on port 3000
+2021-07-07T08:40:11.405Z info : [app]  Connection successful
+2021-07-07T08:40:16.881Z error : [userservices]  User already exists
+2021-07-07T08:40:16.888Z info : [userroute]  addUser returned: [object Object]
+2021-07-07T08:40:58.759Z error : [userservices]  In addUser function: findOrCreate returned an error: SequelizeValidationError: notNull Violation: user.user_phone cannot be null
+2021-07-07T08:40:58.761Z info : [userroute]  addUser returned: [object Object]
+2021-07-07T08:42:19.483Z error : [userservices]  In addUser function: findOrCreate returned an error: Error: WHERE parameter "user_name" has invalid "undefined" value
+2021-07-07T08:42:19.485Z info : [userroute]  addUser returned: [object Object]
+2021-07-07T08:42:23.677Z error : [userservices]  In addUser function: findOrCreate returned an error: Error: WHERE parameter "user_name" has invalid "undefined" value
+2021-07-07T08:42:23.679Z info : [userroute]  addUser returned: [object Object]
+2021-07-07T08:44:22.714Z info : [app]  Listening on port 3000
+2021-07-07T08:44:22.778Z info : [app]  Connection successful
+2021-07-07T08:45:47.353Z info : [app]  Listening on port 3000
+2021-07-07T08:45:47.418Z info : [app]  Connection successful
+2021-07-07T08:46:48.668Z error : [userservices]  In addUser function: findOrCreate returned an error: Error: WHERE parameter "user_name" has invalid "undefined" value
+2021-07-07T08:46:48.675Z info : [userroute]  addUser returned: [object Object]
+2021-07-07T09:30:52.375Z info : [app]  Listening on port 3000
+2021-07-07T09:30:52.452Z info : [app]  Connection successful
+2021-07-07T09:31:43.654Z info : [userservices]  User created successfully
+2021-07-07T09:31:43.660Z info : [userroute]  addUser returned
+2021-07-07T09:32:13.724Z error : [userservices]  User already exists
+2021-07-07T09:32:13.726Z info : [userroute]  addUser returned
+2021-07-07T09:32:34.478Z error : [userservices]  In addUser function: findOrCreate returned an error: Error: WHERE parameter "user_name" has invalid "undefined" value
+2021-07-07T09:32:34.480Z info : [userroute]  addUser returned
+2021-07-07T09:59:54.072Z info : [app]  Listening on port 3000
+2021-07-07T09:59:54.190Z info : [app]  Connection successful
+2021-07-07T10:00:48.747Z info : [companyservices]  Company added successfully
+2021-07-07T10:00:48.752Z info : [companyroutes]  addCompany executed
+2021-07-07T10:01:00.448Z error : [companyservices]  Company already exists
+2021-07-07T10:01:00.450Z info : [companyroutes]  addCompany executed
+2021-07-07T10:37:35.534Z info : [app]  Listening on port 3000
+2021-07-07T10:37:35.615Z info : [app]  Connection successful
+2021-07-07T10:37:40.219Z info : [userservices]  Allocation successful
+2021-07-07T10:37:40.227Z info : [userroute]  allocateUser returned: User Amey Kode allocated to Spring CT company
+2021-07-07T10:47:47.019Z info : [app]  Listening on port 3000
+2021-07-07T10:47:47.088Z info : [app]  Connection successful
+2021-07-07T10:47:51.337Z info : [userservices]  Allocation successful
+2021-07-07T10:47:51.345Z info : [userroute]  allocateUser returned: User Amey Kode allocated to Spring CT company
+2021-07-07T10:48:31.861Z info : [companyservices]  Company added successfully
+2021-07-07T10:48:31.863Z info : [companyroutes]  addCompany executed
+2021-07-07T10:48:52.643Z info : [userservices]  Allocation successful
+2021-07-07T10:48:52.645Z info : [userroute]  allocateUser returned: User Amey Kode allocated to TCS company
+2021-07-07T10:48:59.288Z info : [userservices]  Allocation successful
+2021-07-07T10:48:59.290Z info : [userroute]  allocateUser returned: User Amey Kode allocated to TCS company
+2021-07-07T11:03:00.071Z info : [app]  Listening on port 3000
+2021-07-07T11:03:00.153Z info : [app]  Connection successful
+2021-07-07T11:03:14.035Z info : [companyservices]  Company added successfully
+2021-07-07T11:03:14.040Z info : [companyroutes]  addCompany executed
+2021-07-07T11:03:27.196Z info : [userservices]  Allocation successful
+2021-07-07T11:03:27.201Z info : [userroute]  allocateUser returned: [object Object]
+2021-07-07T11:03:51.917Z info : [app]  Listening on port 3000
+2021-07-07T11:03:51.982Z info : [app]  Connection successful
+2021-07-07T11:04:11.404Z info : [userservices]  Allocation successful
+2021-07-07T11:04:11.409Z info : [userroute]  allocateUser returned: [object Object]
+2021-07-07T11:04:26.538Z info : [userservices]  Allocation successful
+2021-07-07T11:04:26.541Z info : [userroute]  allocateUser returned: [object Object]
+2021-07-07T11:39:18.786Z info : [app]  Listening on port 3000
+2021-07-07T11:39:18.853Z info : [app]  Connection successful
+2021-07-07T11:41:46.841Z info : [userroute]  getUser returned: undefined
+2021-07-07T11:44:11.861Z info : [userroute]  getUser returned: undefined
+2021-07-07T11:47:17.559Z info : [app]  Listening on port 3000
+2021-07-07T11:47:17.623Z info : [app]  Connection successful
+2021-07-07T11:47:20.953Z info : [userroute]  getUser executed
+2021-07-07T11:50:38.728Z info : [app]  Listening on port 3000
+2021-07-07T11:50:38.795Z info : [app]  Connection successful
+2021-07-07T11:50:43.372Z error : [userservices]  getUser returned an error: ReferenceError: Cannot access 'errorResponse' before initialization
+2021-07-07T11:50:43.373Z info : [userroute]  getUser executed
+2021-07-07T11:51:31.492Z info : [app]  Listening on port 3000
+2021-07-07T11:51:31.557Z info : [app]  Connection successful
+2021-07-07T11:51:34.055Z info : [userservices]  User info retrieved
+2021-07-07T11:51:34.061Z info : [userroute]  getUser executed
+2021-07-07T11:52:13.062Z info : [app]  Listening on port 3000
+2021-07-07T11:52:13.128Z info : [app]  Connection successful
+2021-07-07T11:52:15.598Z info : [userservices]  User info retrieved [object Object]
+2021-07-07T11:52:15.604Z info : [userroute]  getUser executed
+2021-07-07T11:53:37.593Z info : [app]  Listening on port 3000
+2021-07-07T11:53:37.679Z info : [app]  Connection successful
+2021-07-07T11:53:39.769Z info : [userservices]  User info retrieved [{"user_id":28,"user_name":"Amey Kode","user_email":"ameykode2001@gmail.com","user_phone":9420495830}]
+2021-07-07T11:53:39.775Z info : [userroute]  getUser executed
+2021-07-07T11:53:57.854Z info : [app]  Listening on port 3000
+2021-07-07T11:53:57.917Z info : [app]  Connection successful
+2021-07-07T11:54:00.147Z info : [userservices]  User info retrieved undefined
+2021-07-07T11:54:00.153Z info : [userroute]  getUser executed
+2021-07-07T11:54:15.387Z info : [app]  Listening on port 3000
+2021-07-07T11:54:15.452Z info : [app]  Connection successful
+2021-07-07T11:54:18.103Z info : [userservices]  User info retrieved undefined
+2021-07-07T11:54:18.108Z info : [userroute]  getUser executed
+2021-07-07T11:55:08.209Z info : [app]  Listening on port 3000
+2021-07-07T11:55:08.281Z info : [app]  Connection successful
+2021-07-07T11:55:11.972Z info : [userservices]  User info retrieved [{"user_id":28,"user_name":"Amey Kode","user_email":"ameykode2001@gmail.com","user_phone":9420495830}]
+2021-07-07T11:55:11.978Z info : [userroute]  getUser executed
+2021-07-07T11:55:27.389Z info : [app]  Listening on port 3000
+2021-07-07T11:55:27.455Z info : [app]  Connection successful
+2021-07-07T11:55:29.406Z info : [userservices]  User info retrieved undefined
+2021-07-07T11:55:29.412Z info : [userroute]  getUser executed
+2021-07-07T11:55:54.373Z info : [app]  Listening on port 3000
+2021-07-07T11:55:54.437Z info : [app]  Connection successful
+2021-07-07T11:55:59.608Z info : [userservices]  User info retrieved undefined
+2021-07-07T11:55:59.615Z info : [userroute]  getUser executed
+2021-07-07T11:56:25.154Z info : [app]  Listening on port 3000
+2021-07-07T11:56:25.217Z info : [app]  Connection successful
+2021-07-07T11:56:27.850Z info : [userservices]  User info retrieved [{"user_id":28,"user_name":"Amey Kode","user_email":"ameykode2001@gmail.com","user_phone":9420495830}]
+2021-07-07T11:56:27.855Z info : [userroute]  getUser executed
+2021-07-07T12:06:37.223Z info : [app]  Listening on port 3000
+2021-07-07T12:06:37.295Z info : [app]  Connection successful
+2021-07-07T12:07:03.192Z info : [userservices]  User info retrieved
+2021-07-07T12:07:03.202Z info : [userroute]  getUser executed
+2021-07-07T12:07:56.002Z info : [app]  Listening on port 3000
+2021-07-07T12:07:56.069Z info : [app]  Connection successful
+2021-07-07T12:07:59.048Z info : [userservices]  User info retrieved
+2021-07-07T12:07:59.056Z info : [userroute]  getUser executed
+2021-07-07T12:08:43.024Z info : [app]  Listening on port 3000
+2021-07-07T12:08:43.089Z info : [app]  Connection successful
+2021-07-07T12:08:44.723Z info : [userservices]  User info retrieved
+2021-07-07T12:08:44.732Z info : [userroute]  getUser executed
+2021-07-07T12:09:05.341Z info : [app]  Listening on port 3000
+2021-07-07T12:09:05.406Z info : [app]  Connection successful
+2021-07-07T12:09:11.365Z info : [userservices]  User info retrieved
+2021-07-07T12:09:11.372Z info : [userroute]  getUser executed
+2021-07-07T12:09:52.026Z info : [app]  Listening on port 3000
+2021-07-07T12:09:52.103Z info : [app]  Connection successful
+2021-07-07T12:09:53.838Z info : [userservices]  User info retrieved
+2021-07-07T12:09:53.847Z info : [userroute]  getUser executed
+2021-07-07T12:10:20.347Z info : [app]  Listening on port 3000
+2021-07-07T12:10:20.410Z info : [app]  Connection successful
+2021-07-07T12:10:23.638Z info : [userservices]  User info retrieved
+2021-07-07T12:10:23.647Z info : [userroute]  getUser executed
+2021-07-07T12:14:25.368Z info : [app]  Listening on port 3000
+2021-07-07T12:14:25.436Z info : [app]  Connection successful
+2021-07-07T12:14:27.616Z info : [userservices]  User info retrieved
+2021-07-07T12:14:27.625Z info : [userroute]  getUser executed
+2021-07-07T12:14:47.677Z error : [userservices]  getUser returned an error: TypeError: Cannot read property 'user_id' of undefined
+2021-07-07T12:14:47.678Z error : [userroute]  getUser returned an error: ReferenceError: newErrorResponse is not defined
+2021-07-07T12:16:17.583Z info : [app]  Listening on port 3000
+2021-07-07T12:16:17.649Z info : [app]  Connection successful
+2021-07-07T12:16:20.520Z error : [userservices]  getUser returned an error: TypeError: Cannot read property 'user_id' of undefined
+2021-07-07T12:16:20.527Z info : [userroute]  getUser executed
+2021-07-07T12:51:31.407Z info : [app]  Listening on port 3000
+2021-07-07T12:51:31.475Z info : [app]  Connection successful
+2021-07-07T12:52:34.737Z info : [userservices]  User list retrieved
+2021-07-07T12:52:34.738Z error : [userservices]  listUser returned error: ReferenceError: res is not defined 
+2021-07-07T12:52:34.744Z error : [userroute]  listUser returned an error: ReferenceError: res is not defined
+2021-07-07T12:57:32.868Z info : [app]  Listening on port 3000
+2021-07-07T12:57:32.936Z info : [app]  Connection successful
+2021-07-07T12:57:36.327Z info : [userservices]  User list retrieved
+2021-07-07T12:58:28.640Z info : [app]  Listening on port 3000
+2021-07-07T12:58:28.705Z info : [app]  Connection successful
+2021-07-07T12:58:32.826Z info : [userservices]  User list retrieved
+2021-07-07T12:58:32.832Z info : [userroute]  listUser returned: [object Object]
+2021-07-07T12:59:22.678Z info : [app]  Listening on port 3000
+2021-07-07T12:59:22.744Z info : [app]  Connection successful
+2021-07-07T12:59:26.550Z info : [userservices]  User list retrieved [object Object],[object Object],[object Object]
+2021-07-07T12:59:26.556Z info : [userroute]  listUser returned: [object Object]
+2021-07-07T13:00:10.128Z info : [app]  Listening on port 3000
+2021-07-07T13:00:10.192Z info : [app]  Connection successful
+2021-07-07T13:00:12.397Z info : [userservices]  User list retrieved [{"user_id":28,"user_name":"Amey Kode","user_email":"ameykode2001@gmail.com","user_phone":9420495830,"companies":"Spring CT, TCS, TCS"},{"user_id":26,"user_name":"Dharmendra Kode","user_email":"dharmendrakode2001@gmail.com","user_phone":8208522332,"companies":"Infosys, Infosys"},{"user_id":27,"user_name":"Madhura Kode","user_email":"madhurakode2001@gmail.com","user_phone":8208522908,"companies":"TCS"}]
+2021-07-07T13:00:12.404Z info : [userroute]  listUser returned: [object Object]
+2021-07-07T13:00:50.349Z info : [app]  Listening on port 3000
+2021-07-07T13:00:50.414Z info : [app]  Connection successful
+2021-07-07T13:00:52.398Z info : [userservices]  User list retrieved
+2021-07-07T13:00:52.403Z info : [userroute]  listUser returned: [object Object]
+2021-07-07T13:05:26.011Z info : [app]  Listening on port 3000
+2021-07-07T13:05:26.079Z info : [app]  Connection successful
+2021-07-07T13:06:22.727Z info : [userservices]  User created successfully
+2021-07-07T13:06:22.733Z info : [userroute]  addUser returned
+2021-07-07T13:10:53.276Z info : [app]  Listening on port 3000
+2021-07-07T13:10:53.353Z info : [app]  Connection successful
+2021-07-07T13:10:56.248Z error : [userservices]  User already exists
+2021-07-07T13:10:56.255Z info : [userroute]  addUser returned
+2021-07-07T13:11:01.343Z info : [userservices]  User list retrieved
+2021-07-07T13:11:01.345Z info : [userroute]  listUser returned: [object Object]
+2021-07-07T13:12:31.881Z info : [app]  Listening on port 3000
+2021-07-07T13:12:31.949Z info : [app]  Connection successful
+2021-07-07T13:12:59.792Z info : [app]  Listening on port 3000
+2021-07-07T13:12:59.857Z info : [app]  Connection successful
+2021-07-07T13:13:01.850Z info : [userservices]  User list retrieved
+2021-07-07T13:13:01.857Z info : [userroute]  listUser returned: [object Object]
+2021-07-07T13:24:40.083Z info : [app]  Listening on port 3000
+2021-07-07T13:24:40.148Z info : [app]  Connection successful
+2021-07-07T13:25:06.407Z info : [companyservices]  Deletion successful
+2021-07-07T13:25:06.408Z error : [companyservices]  deleteCompany returned an error: TypeError: Cannot read property 'status' of undefined
+2021-07-07T13:25:06.410Z error : [companyroutes]  deleteCompany returned with an error: TypeError: Cannot read property 'status' of undefined
+2021-07-07T13:26:00.737Z info : [app]  Listening on port 3000
+2021-07-07T13:26:00.805Z info : [app]  Connection successful
+2021-07-07T13:26:04.987Z error : [companyservices]  Company deletion error
+2021-07-07T13:26:04.993Z info : [companyroutes]  deleteCompany returned [object Object]
+2021-07-07T13:26:33.311Z info : [app]  Listening on port 3000
+2021-07-07T13:26:33.377Z info : [app]  Connection successful
+2021-07-07T13:26:38.506Z error : [companyservices]  Company deletion error
+2021-07-07T13:26:38.512Z info : [companyroutes]  deleteCompany returned [object Object]
+2021-07-07T13:27:49.054Z info : [app]  Listening on port 3000
+2021-07-07T13:27:49.118Z info : [app]  Connection successful
+2021-07-07T13:27:52.749Z error : [companyservices]  Company deletion error
+2021-07-07T13:27:52.756Z info : [companyroutes]  deleteCompany returned [object Object]
+2021-07-07T13:28:04.078Z info : [companyservices]  Company added successfully
+2021-07-07T13:28:04.080Z info : [companyroutes]  addCompany executed
+2021-07-07T13:30:28.730Z info : [app]  Listening on port 3000
+2021-07-07T13:30:28.796Z info : [app]  Connection successful
+2021-07-07T13:30:37.375Z info : [companyservices]  Company added successfully
+2021-07-07T13:30:37.380Z info : [companyroutes]  addCompany executed
+2021-07-07T13:32:24.098Z info : [app]  Listening on port 3000
+2021-07-07T13:32:24.163Z info : [app]  Connection successful
+2021-07-07T13:32:34.513Z info : [companyservices]  Company added successfully
+2021-07-07T13:32:34.521Z info : [companyroutes]  addCompany executed
+2021-07-07T13:33:34.539Z info : [app]  Listening on port 3000
+2021-07-07T13:33:34.603Z info : [app]  Connection successful
+2021-07-07T13:33:44.435Z info : [companyservices]  Deletion successful
+2021-07-07T13:33:44.444Z info : [companyroutes]  deleteCompany returned [object Object]
+2021-07-08T04:38:28.674Z info : [app]  Listening on port 3000
+2021-07-08T04:38:28.937Z info : [app]  Connection successful
+2021-07-08T04:43:30.816Z info : [app]  Listening on port 3000
+2021-07-08T04:43:31.036Z info : [app]  Connection successful
+2021-07-08T04:43:41.755Z info : [companyservices]  getUserFromCompany executed
+2021-07-08T04:43:41.788Z info : [companyroutes]  getUserFromCompany returned
+2021-07-08T04:44:28.202Z info : [userservices]  Allocation successful
+2021-07-08T04:44:28.211Z info : [userroute]  allocateUser returned: [object Object]
+2021-07-08T04:44:41.484Z info : [companyservices]  getUserFromCompany executed
+2021-07-08T04:44:41.492Z info : [companyroutes]  getUserFromCompany returned
+2021-07-08T05:05:49.258Z info : [app]  Listening on port 3000
+2021-07-08T05:05:49.460Z info : [app]  Connection successful
+2021-07-08T05:06:38.520Z info : [companyservices]  Company added successfully
+2021-07-08T05:06:38.573Z info : [companyroutes]  addCompany executed
+2021-07-08T05:12:19.328Z info : [app]  Listening on port 3000
+2021-07-08T05:12:19.514Z info : [app]  Connection successful
+2021-07-08T05:12:23.862Z info : [companyservices]  Company added successfully
+2021-07-08T05:12:23.907Z info : [companyroutes]  addCompany executed
+2021-07-08T07:57:13.386Z info : [app]  Listening on port 3000
+2021-07-08T07:57:13.750Z info : [app]  Connection successful
+2021-07-08T07:58:03.610Z info : [companyservices]  Company added successfully
+2021-07-08T07:58:03.621Z info : [companyroutes]  addCompany executed
+2021-07-08T09:19:37.220Z info : [app]  Listening on port 3000
+2021-07-08T09:19:37.454Z info : [app]  Connection successful
+2021-07-08T09:20:58.837Z info : [companyservices]  getUserFromCompany executed
+2021-07-08T09:20:58.850Z info : [companyroutes]  getUserFromCompany returned
+2021-07-08T09:25:14.917Z info : [app]  Listening on port 3000
+2021-07-08T09:25:15.112Z info : [app]  Connection successful
+2021-07-08T09:25:19.292Z error : [userservices]  getUser returned an error: TypeError: Cannot read property 'user_id' of undefined
+2021-07-08T09:25:19.341Z info : [userroute]  getUser executed
+2021-07-12T13:41:44.792Z error : [userservices]  In addUser function: findOrCreate returned an error: TypeError: Cannot read property 'name' of undefined
+2021-07-12T18:09:05.670Z info : [app]  Listening on port 3000
+2021-07-12T18:09:06.738Z info : [app]  Connection successful
+2021-07-12T18:09:22.343Z info : [companyservices]  Company added successfully
+2021-07-12T18:09:22.353Z info : [companyroutes]  addCompany executed
+2021-07-12T18:17:36.803Z info : [app]  Listening on port 3000
+2021-07-12T18:17:37.094Z info : [app]  Connection successful
+2021-07-12T18:19:07.624Z info : [app]  Listening on port 3000
+2021-07-12T18:19:07.690Z info : [app]  Connection successful
+2021-07-12T18:22:43.275Z info : [companyservices]  Company added successfully
+2021-07-12T18:22:43.277Z info : [companyroutes]  addCompany executed
+2021-07-12T18:25:00.357Z info : [app]  Listening on port 3000
+2021-07-12T18:25:00.423Z info : [app]  Connection successful
+2021-07-12T18:26:40.247Z info : [app]  Listening on port 3000
+2021-07-12T18:26:40.313Z info : [app]  Connection successful
+2021-07-12T18:30:39.108Z info : [app]  Listening on port 3000
+2021-07-12T18:30:39.177Z info : [app]  Connection successful
+2021-07-12T18:42:18.064Z info : [app]  Listening on port 3000
+2021-07-12T18:42:18.129Z info : [app]  Connection successful
+2021-07-12T18:42:24.121Z debug : [companyroutes]  Spring CT
+2021-07-12T18:42:24.135Z info : [companyservices]  getUserFromCompany executed
+2021-07-12T18:42:24.143Z info : [companyroutes]  getUserFromCompany returned
+2021-07-13T06:06:48.473Z error : [companyservices]  addCompany returned an error: TypeError: (intermediate value) is not iterable
+2021-07-13T06:09:42.510Z error : [companyservices]  addCompany returned an error: TypeError: (intermediate value) is not iterable
+2021-07-13T06:19:44.932Z error : [companyservices]  addCompany returned an error: TypeError: (intermediate value) is not iterable
+2021-07-13T10:13:24.961Z info : [app]  Listening on port 3000
+2021-07-13T10:13:25.086Z info : [app]  Connection successful
+2021-07-13T10:15:07.519Z info : [app]  Listening on port 3000
+2021-07-13T10:15:07.604Z info : [app]  Connection successful
+2021-07-13T10:16:57.911Z info : [app]  Listening on port 3000
+2021-07-13T10:16:58.040Z info : [app]  Connection successful
+2021-07-13T10:18:08.504Z info : [app]  Listening on port 3000
+2021-07-13T10:18:08.584Z info : [app]  Connection successful
+2021-07-13T10:18:38.726Z info : [app]  Listening on port 3000
+2021-07-13T10:18:38.808Z info : [app]  Connection successful
+2021-07-13T10:19:14.728Z info : [app]  Listening on port 3000
+2021-07-13T10:19:14.854Z info : [app]  Connection successful
+2021-07-13T11:28:29.876Z info : [app]  Listening on port 3000
+2021-07-13T11:28:30.059Z info : [app]  Connection successful
+2021-07-13T11:51:18.083Z info : [app]  Listening on port 3000
+2021-07-13T11:51:18.168Z info : [app]  Connection successful
+2021-07-13T11:51:46.771Z debug : [companyroutes]  Spring CT
+2021-07-13T11:51:46.806Z info : [companyservices]  getUserFromCompany executed
+2021-07-13T11:51:46.811Z info : [companyroutes]  getUserFromCompany returned
+2021-07-13T11:52:46.668Z info : [app]  Listening on port 3000
+2021-07-13T11:52:46.752Z info : [app]  Connection successful
+2021-07-13T11:56:11.212Z info : [app]  Listening on port 3000
+2021-07-13T11:56:11.295Z info : [app]  Connection successful
+2021-07-13T11:57:51.343Z info : [app]  Listening on port 3000
+2021-07-13T11:57:51.428Z info : [app]  Connection successful
+2021-07-13T11:58:16.591Z info : [app]  Listening on port 3000
+2021-07-13T11:58:16.674Z info : [app]  Connection successful
+2021-07-13T12:03:39.245Z info : [app]  Connection successful
+2021-07-13T12:10:03.318Z info : [app]  Listening on port 3000
+2021-07-13T12:10:03.404Z info : [app]  Connection successful
+2021-07-13T12:11:51.087Z info : [app]  Listening on port 3000
+2021-07-13T12:11:51.171Z info : [app]  Connection successful
+2021-07-13T12:17:43.154Z info : [app]  Listening on port 3000
+2021-07-13T12:17:43.226Z info : [app]  Connection successful
+2021-07-13T12:18:40.144Z info : [app]  Connection successful
+2021-07-13T12:18:56.538Z info : [app]  Listening on port 3000
+2021-07-13T12:18:56.607Z info : [app]  Connection successful
+2021-07-13T13:13:11.797Z info : [app]  Listening on port 3000
+2021-07-13T13:13:11.904Z info : [app]  Connection successful
+2021-07-13T14:30:41.252Z info : [app]  Listening on port 3000
+2021-07-13T14:30:41.345Z info : [app]  Connection successful
+2021-07-13T14:31:05.157Z info : [app]  Listening on port 3000
+2021-07-13T14:31:05.255Z info : [app]  Connection successful
+2021-07-13T14:33:23.699Z info : [app]  Listening on port 3000
+2021-07-13T14:33:23.797Z info : [app]  Connection successful
+2021-07-13T14:34:03.695Z info : [app]  Listening on port 3000
+2021-07-13T14:34:03.916Z info : [app]  Connection successful
+2021-07-13T14:35:07.654Z info : [app]  Listening on port 3000
+2021-07-13T14:35:07.740Z info : [app]  Connection successful
+2021-07-13T14:35:24.088Z info : [app]  Listening on port 3000
+2021-07-13T14:35:24.157Z info : [app]  Connection successful
+2021-07-13T14:36:53.939Z info : [app]  Listening on port 3000
+2021-07-13T14:37:43.029Z info : [app]  Listening on port 3000
+2021-07-13T14:38:25.853Z info : [app]  Listening on port 3000
+2021-07-13T14:39:51.141Z info : [app]  Listening on port 3000
+2021-07-13T14:40:37.873Z info : [app]  Listening on port 3000
+2021-07-13T14:41:55.427Z info : [app]  Listening on port 3000
+2021-07-13T14:46:11.379Z info : [app]  Listening on port 3000
+2021-07-13T14:47:45.708Z info : [app]  Listening on port 3000
+2021-07-13T14:49:20.796Z info : [app]  Listening on port 3000
+2021-07-13T14:49:20.864Z info : [app]  Connection successful
+2021-07-13T14:49:40.180Z info : [app]  Listening on port 3000
+2021-07-13T14:50:16.542Z info : [app]  Listening on port 3000
+2021-07-13T14:51:29.168Z info : [app]  Listening on port 3000
+2021-07-13T14:55:06.781Z info : [app]  Listening on port 3000
+2021-07-13T14:55:06.895Z info : [app]  Connection successful
+2021-07-13T14:55:48.090Z info : [app]  Listening on port 3000
+2021-07-13T14:55:48.209Z info : [app]  Connection successful
+2021-07-13T14:57:10.615Z info : [app]  Listening on port 3000
+2021-07-13T14:58:23.251Z info : [app]  Listening on port 3000
+2021-07-13T14:58:23.367Z info : [app]  Connection successful
+2021-07-13T14:58:37.079Z info : [app]  Listening on port 3000
+2021-07-13T14:58:37.191Z info : [app]  Connection successful
+2021-07-13T14:58:57.693Z info : [app]  Listening on port 3000
+2021-07-13T14:58:57.811Z info : [app]  Connection successful
+2021-07-13T15:02:37.668Z info : [app]  Listening on port 3000
+2021-07-13T15:02:37.785Z info : [app]  Connection successful
+2021-07-13T15:09:14.206Z info : [app]  Listening on port 3000
+2021-07-13T15:09:14.319Z info : [app]  Connection successful
+2021-07-13T15:10:01.487Z info : [app]  Listening on port 3000
+2021-07-13T15:10:01.584Z info : [app]  Connection successful
+2021-07-13T15:11:52.287Z info : [app]  Listening on port 3000
+2021-07-13T15:11:52.355Z info : [app]  Connection successful
+2021-07-13T15:12:05.039Z debug : [companyroutes]  Spring CT
+2021-07-13T15:12:05.058Z info : [companyservices]  getUserFromCompany executed
+2021-07-13T15:12:05.064Z info : [companyroutes]  getUserFromCompany returned
+2021-07-13T15:14:26.552Z info : [app]  Listening on port 3000
+2021-07-13T15:14:26.622Z info : [app]  Connection successful
+2021-07-13T15:14:39.180Z info : [app]  Listening on port 3000
+2021-07-13T15:14:39.416Z info : [app]  Connection successful
+2021-07-13T15:15:17.543Z info : [app]  Listening on port 3000
+2021-07-13T15:15:17.646Z info : [app]  Connection successful
+2021-07-13T15:15:44.471Z info : [app]  Listening on port 3000
+2021-07-13T15:15:44.718Z info : [app]  Connection successful
+2021-07-13T15:16:13.084Z info : [app]  Listening on port 3000
+2021-07-13T15:16:13.194Z info : [app]  Connection successful
+2021-07-13T18:59:22.101Z info : [app]  Listening on port 3000
+2021-07-13T18:59:22.264Z debug : [companyroutes]  Spring CT
+2021-07-13T18:59:22.284Z info : [app]  Connection successful
+2021-07-13T18:59:22.345Z info : [companyservices]  getUserFromCompany executed
+2021-07-13T18:59:22.349Z info : [companyroutes]  getUserFromCompany returned
+2021-07-13T19:00:12.270Z info : [app]  Listening on port 3000
+2021-07-13T19:00:12.351Z debug : [companyroutes]  Spring CT
+2021-07-13T19:00:12.364Z info : [app]  Connection successful
+2021-07-13T19:00:12.374Z info : [companyservices]  getUserFromCompany executed
+2021-07-13T19:00:12.378Z info : [companyroutes]  getUserFromCompany returned
+2021-07-13T19:14:10.069Z info : [app]  Listening on port 3000
+2021-07-13T19:14:10.139Z info : [app]  Connection successful
+2021-07-13T19:14:23.787Z info : [app]  Listening on port 3000
+2021-07-13T19:14:24.017Z info : [app]  Connection successful
+2021-07-13T19:15:07.220Z info : [app]  Listening on port 3000
+2021-07-13T19:15:07.289Z info : [app]  Connection successful
+2021-07-13T19:15:29.281Z info : [app]  Listening on port 3000
+2021-07-13T19:15:29.361Z debug : [companyroutes]  Spring CT
+2021-07-13T19:15:29.372Z info : [app]  Connection successful
+2021-07-13T19:15:29.382Z info : [companyservices]  getUserFromCompany executed
+2021-07-13T19:15:29.386Z info : [companyroutes]  getUserFromCompany returned
+2021-07-13T19:21:36.145Z info : [app]  Listening on port 3000
+2021-07-13T19:21:36.268Z debug : [companyroutes]  Spring CT
+2021-07-13T19:21:36.311Z info : [app]  Connection successful
+2021-07-13T19:21:36.322Z info : [companyservices]  getUserFromCompany executed
+2021-07-13T19:21:36.333Z info : [companyroutes]  getUserFromCompany returned
+2021-07-13T19:21:36.558Z info : [companyservices]  Company added successfully
+2021-07-13T19:21:36.559Z info : [companyroutes]  addCompany executed
+2021-07-13T19:25:16.106Z info : [app]  Listening on port 3000
+2021-07-13T19:25:16.188Z debug : [companyroutes]  Spring CT
+2021-07-13T19:25:16.196Z info : [app]  Connection successful
+2021-07-13T19:25:16.206Z info : [companyservices]  getUserFromCompany executed
+2021-07-13T19:25:16.209Z info : [companyroutes]  getUserFromCompany returned
+2021-07-13T19:25:16.329Z info : [companyservices]  Company added successfully
+2021-07-13T19:25:16.330Z info : [companyroutes]  addCompany executed
+2021-07-13T19:25:48.400Z info : [app]  Listening on port 3000
+2021-07-13T19:25:48.479Z debug : [companyroutes]  Spring CT
+2021-07-13T19:25:48.488Z info : [app]  Connection successful
+2021-07-13T19:25:48.497Z info : [companyservices]  getUserFromCompany executed
+2021-07-13T19:25:48.501Z info : [companyroutes]  getUserFromCompany returned
+2021-07-13T19:25:48.538Z error : [companyservices]  Company already exists
+2021-07-13T19:25:48.539Z info : [companyroutes]  addCompany executed
+2021-07-13T19:26:22.918Z info : [app]  Listening on port 3000
+2021-07-13T19:26:22.996Z debug : [companyroutes]  Spring CT
+2021-07-13T19:26:23.004Z info : [app]  Connection successful
+2021-07-13T19:26:23.014Z info : [companyservices]  getUserFromCompany executed
+2021-07-13T19:26:23.018Z info : [companyroutes]  getUserFromCompany returned
+2021-07-13T19:26:23.197Z info : [companyservices]  Company added successfully
+2021-07-13T19:26:23.199Z info : [companyroutes]  addCompany executed
+2021-07-13T19:33:11.458Z info : [app]  Listening on port 3000
+2021-07-13T19:33:11.536Z debug : [companyroutes]  TCS
+2021-07-13T19:33:11.549Z info : [app]  Connection successful
+2021-07-13T19:33:11.559Z info : [companyservices]  getUserFromCompany executed
+2021-07-13T19:33:11.562Z info : [companyroutes]  getUserFromCompany returned
+2021-07-13T19:33:11.577Z debug : [companyroutes]  TCS
+2021-07-13T19:33:11.580Z info : [companyservices]  getUserFromCompany executed
+2021-07-13T19:33:11.581Z info : [companyroutes]  getUserFromCompany returned
+2021-07-13T19:33:11.689Z info : [companyservices]  Company added successfully
+2021-07-13T19:33:11.690Z info : [companyroutes]  addCompany executed
+2021-07-13T19:44:14.787Z info : [app]  Listening on port 3000
+2021-07-13T19:44:14.863Z debug : [companyroutes]  Spring CT
+2021-07-13T19:44:14.875Z info : [app]  Connection successful
+2021-07-13T19:44:14.887Z info : [companyservices]  getUserFromCompany executed
+2021-07-13T19:44:14.891Z info : [companyroutes]  getUserFromCompany returned
+2021-07-13T19:44:15.042Z info : [companyservices]  Company added successfully
+2021-07-13T19:44:15.044Z info : [companyroutes]  addCompany executed
+2021-07-13T19:44:15.241Z info : [companyservices]  Deletion successful
+2021-07-13T19:44:15.242Z info : [companyroutes]  deleteCompany returned [object Object]
+2021-07-13T19:44:47.369Z info : [app]  Listening on port 3000
+2021-07-13T19:44:47.447Z debug : [companyroutes]  Spring CT
+2021-07-13T19:44:47.464Z info : [app]  Connection successful
+2021-07-13T19:44:47.473Z info : [companyservices]  getUserFromCompany executed
+2021-07-13T19:44:47.499Z info : [companyroutes]  getUserFromCompany returned
+2021-07-13T19:44:47.809Z info : [companyservices]  Company added successfully
+2021-07-13T19:44:47.810Z info : [companyroutes]  addCompany executed
+2021-07-13T19:44:48.053Z info : [companyservices]  Deletion successful
+2021-07-13T19:44:48.054Z info : [companyroutes]  deleteCompany returned [object Object]
+2021-07-14T08:44:58.394Z info : [app]  Listening on port 3000
+2021-07-14T08:44:58.429Z debug : [companyroutes]  Spring CT
+2021-07-14T08:45:00.425Z error : [app]  Database connection error: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+2021-07-14T08:45:00.441Z error : [companyservices]  addCompany returned an error: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+2021-07-14T08:45:00.442Z error : [companyroutes]  addCompany returned an error: ReferenceError: newErrorResponse is not defined
+2021-07-14T08:45:00.442Z error : [user.methods]  getUserFromCompany returned an error: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+2021-07-14T08:45:00.443Z info : [companyservices]  getUserFromCompany executed
+2021-07-14T08:45:00.445Z info : [companyroutes]  getUserFromCompany returned
