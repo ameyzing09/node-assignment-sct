@@ -22,21 +22,6 @@ describe("Getting user from company", ()=>{
                 res.should.have.status(200)
                 res.type.should.equal('application/json')
                 res.body.should.include.keys('data')
-
-         
-            
-        // let req, res
-        // req = {}
-        // res = {
-        //     status: sinon.spy(),
-        //     json: sinon.spy()
-        // }
-        // const stub = sinon.stub(Company, "findOrCreate").returns(companyDetails)
-        // const companyService = new CompanyService(req, res)
-        // const companyDetail = await companyService.addCompany(companyDetails.name, companyDetails.city)
-        // expect(stub.calledOnce).to.be.true
-        // expect(companyDetail.name).to.equal(companyDetails.name)
-        // expect(companyDetail.city).to.equal(companyDetails.city)
     })
 
     // it("GET /company/ : Should return JSON response with 400 status code", async ()=>{
